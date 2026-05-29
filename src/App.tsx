@@ -631,7 +631,7 @@ export default function App() {
 
           <div className="relative z-10 px-8 md:px-16 lg:px-20 w-full max-w-6xl mr-auto font-sans">
 
-            <h1 className="text-5xl md:text-7xl lg:text-8xl font-light leading-[1.08] tracking-tight text-white mb-8 max-w-5xl">
+            <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-light leading-[1.08] tracking-tight text-white mb-8 max-w-5xl">
               Kadai: Where hearth met <span className="font-serif gold-text-gradient italic font-normal">Metal</span>, and flavor became legend.
             </h1>
             <p className="text-white/70 text-base md:text-lg tracking-wide max-w-xl mb-10 leading-relaxed font-light">
@@ -659,7 +659,7 @@ export default function App() {
           <section id="story" className="p-8 md:p-16 xl:p-24 border-b border-white/10 flex flex-col gap-16 md:gap-24">
             <div className="grid md:grid-cols-2 gap-12 lg:gap-24 items-center">
               <div>
-                <h2 className="font-serif text-5xl md:text-6xl lg:text-7xl leading-[0.95] mb-8 tracking-tight text-white">
+                <h2 className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-[0.95] mb-8 tracking-tight text-white">
                   THE KADAI <span className="gold-text-gradient italic">STORY</span>
                 </h2>
                 <p className="text-white/60 text-lg leading-relaxed font-light">

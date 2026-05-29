@@ -104,7 +104,7 @@ export const StickyCard002 = ({
       <div className="sticky-cards-wrapper relative flex h-screen w-full items-center justify-center overflow-hidden px-4 py-8 md:px-8">
         <div
           className={cn(
-            "relative h-[80vh] w-full max-w-sm sm:max-w-md md:max-w-xl lg:max-w-3xl xl:max-w-4xl 2xl:max-w-5xl rounded-3xl overflow-hidden",
+            "relative h-[70vh] sm:h-[80vh] w-full max-w-sm sm:max-w-md md:max-w-xl lg:max-w-3xl xl:max-w-4xl 2xl:max-w-5xl rounded-3xl overflow-hidden",
             containerClassName,
           )}
         >
@@ -128,19 +128,19 @@ export const StickyCard002 = ({
               />
               
               {/* Luxury Text Content Overlay */}
-              <div className="relative z-10 p-8 md:p-12 lg:p-16 bg-gradient-to-t from-obsidian via-obsidian/85 to-transparent pt-32 text-left font-sans flex flex-col justify-end">
+              <div className="relative z-10 p-5 sm:p-8 md:p-12 lg:p-16 bg-gradient-to-t from-obsidian via-obsidian/85 to-transparent pt-20 sm:pt-32 text-left font-sans flex flex-col justify-end">
                 <span className="text-[10px] md:text-xs uppercase tracking-[0.4em] text-gold font-light block mb-2 sm:mb-3">
                   KADAI LEGACY
                 </span>
                 
                 {card.title && (
-                  <h3 className="font-serif text-3xl md:text-5xl text-white font-semibold mb-4 tracking-wide leading-tight drop-shadow-md">
+                  <h3 className="font-serif text-xl sm:text-3xl md:text-5xl text-white font-semibold mb-2 sm:mb-4 tracking-wide leading-tight drop-shadow-md">
                     {card.title}
                   </h3>
                 )}
                 
                 {card.description && (
-                  <p className="text-white/70 text-xs md:text-base font-light leading-relaxed max-w-2xl drop-shadow-sm">
+                  <p className="text-white/70 text-[11px] sm:text-xs md:text-base font-light leading-relaxed max-w-2xl drop-shadow-sm">
                     {card.description}
                   </p>
                 )}

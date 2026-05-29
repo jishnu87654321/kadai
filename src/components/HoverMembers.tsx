@@ -133,7 +133,7 @@ export default function HoverMembers() {
 
       {/* THUMBNAIL STRIP */}
       <div 
-        className="relative z-20 flex flex-wrap gap-2 md:gap-3 px-6 py-6 md:px-12 md:py-8 justify-center items-center w-full"
+        className="relative z-20 flex flex-wrap gap-1.5 md:gap-3 px-3 py-4 md:px-12 md:py-8 justify-center items-center w-full"
         onMouseLeave={handleMouseLeave}
       >
         {KADAI_TEAM.map(m => {
