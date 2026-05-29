@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,900;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-obsidian: #050505;
+  --color-obsidian-light: #0d0d0d;
+  --color-gold: #cfa85e;
+  --color-gold-hover: #b58d42;
+  --color-crimson: #8C1C13;
+  --color-bronze: #876241;
+  --color-slate-dark: #1F2226;
+  --color-slate-light: #ece9e4;
+
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-gradient-to-br from-[#1c0505] via-obsidian to-[#2a0808] text-slate-light font-sans antialiased min-h-screen bg-fixed;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif font-normal;
+  }
+
+  /* Custom scrollbar for an elegant feel */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-white/10 rounded-full;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-gold/50;
+  }
+}
+
+.lux-border {
+  @apply border border-white/10;
+}
+
+.gold-text-gradient {
+  background: linear-gradient(to right, #e2c88f, #b98e40, #e2c88f);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}

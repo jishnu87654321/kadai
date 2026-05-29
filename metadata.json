@@ -1,0 +1,8 @@
+{
+  "name": "KADAI Luxury Restaurant",
+  "description": "A sophisticated, luxury restaurant website for KADAI featuring an obsidian black and hammered bronze aesthetic.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
